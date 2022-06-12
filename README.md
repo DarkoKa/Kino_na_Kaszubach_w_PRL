@@ -1,3 +1,2 @@
 # AmbientMusic
- Website for fans of Ambient music
-Projekt w przygotowaniu
+Projekt w przygotowaniu - codzennie będę coś dorzucał w kodzie
