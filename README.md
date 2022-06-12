@@ -1,2 +1,2 @@
 # AmbientMusic
-Projekt w przygotowaniu - codzennie będę coś dorzucał w kodzie
+Projekt w przygotowaniu - codziennie będę coś dorzucał w kodzie
