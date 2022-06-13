@@ -1,21 +1,21 @@
 
-/* >>>>>>>>> style for navbar <<<<<<<<<<<< */
+/* >>>>>>>>> own style for navbar <<<<<<<<<<<< */
 .my-navbar-bg-cl{
-    background-color: rgba(99, 97, 213, 0.492);
+    background-color: rgba(47, 81, 230, 0.485) !important;
 }
 
 .my-nav-brand{
-    color: white;
+    color: white !important;
 }
 
 .my-ul-navbar{
-    color: white;  
+    color: white !important; 
 }
 
 .my-ul-navbar:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important; 
 }
 
 .my-nav-brand:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
 }
