@@ -1,2 +1,2 @@
-# AmbientMusic
-Projekt zawieszony na rzecz serwisu nt. historii informatyki w PRL
+# Kino_na_Kaszubach_w_PRL
+
