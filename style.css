@@ -1,28 +1,119 @@
-
-/* >>>>>>>>> own style for navbar <<<<<<<<<<<< */
-.myClassColorMenu{
-    background-color: rgb(0, 0, 0);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.myClassBackgrColor{
-    background-color: rgb(246, 223, 8);
-}
-.my-nav-brand{
-    color: white !important   
+a{
+    text-decoration: none;
 }
 
-.my-ul-navbar{
-    color: white !important; 
-    font-size: 20px;
+/* ---- navbar section ---- */
+.navbar-brand{
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #FFC000 !important;
+    font-weight: 100;
 }
-/* .my-nav-brand:hover{ 
-    color: #0d6efd !important;
-}*/
-
-.my-ul-navbar:hover{
-    color:#0d6efd !important; 
+.nav-link{
+   font-size: 16px;
+   font-weight: 100;
+   color: #000000;
+   text-transform: uppercase; 
+}
+.nav-link:hover{
+    color:#FFC000 !important;
+}
+.myClassSearchText{
+    height: 30px;
+    width: 70%;
+    border: 1px solid #FFC000;
+    border-radius: 15px;
+    margin-right: -25px;
+    outline: none;
+}
+.myClassSearchBtn{
+    font-size: 12px;
+    height: 30px;
+    width: 40%;
+    color: #FFC000;
+    background-color: #000000;
+    border-radius: 15px;
+    outline: none;
+    border-style: none;
+}
+.myClassSearchBtn:hover{
+    color: #fff;
 }
 
-.h2-elektroniczna{
-    color: #0d6efd;
-    font-weight: bolder;
-}   
+/*  +++ main section: background image / main title +++ */
+.myClassMainSection{
+    background: url(img/mainImg_after_cut.jpg) no-repeat; 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 10% 10%;
+}
+.myClassMainSection p{
+    color: #FFC000;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-shadow: #000000 2px 2px 3px;
+}
+
+/* +++ "Historia" section +++ */
+.card-text{
+    font-weight: 100;
+    text-align: justify;
+}
+.card-img-top, .card-body{
+    border: 1px solid #FFC000;
+}
+.card-body{
+    height: 10em;
+}
+.myCardHover{
+transition: 0.4s;
+}
+.myCardHover:hover{    
+    opacity: 0.3;
+}
+.myStyleWyslijButton{
+    color: #ffffff;
+    transition: 0.4s;
+}
+.myStyleWyslijButton:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* +++ Kontankt section +++ */
+.myStyleSection{
+    background-color: #FFC000;
+    color: #000000;
+    font-weight: 100;
+}
+
+/* ======== media queries ======== */
+
+/* media queries to "Historia" section */
+@media(max-width: 1200px){
+    .card-body{
+        height: 13rem;
+    }
+}
+@media(max-width: 992px){
+    .card-body{
+        height: 10rem;
+    }
+}
+@media(max-width: 768px){ 
+    .card-body{
+            height: 12rem;
+        }
+    }
+@media(max-width: 576px){ 
+.card-body{
+        height: 8rem;
+    }
+}
+
