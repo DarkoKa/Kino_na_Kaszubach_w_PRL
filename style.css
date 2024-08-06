@@ -1,16 +1,22 @@
 
-/* >>>>>>>>> my style for navbar <<<<<<<<<<<< */
+/* >>>>>>>>>  navbar <<<<<<<<<<<< */
+.myStyleMenu{
+    color: white !important;
+    font-weight: 100;
+    font-size: 16px;
+}
+.myStyleMenu:hover{
+    color: #FED517 !important;
+}
+
+
+/* >>>>>>>>> first main section <<<<<<<<<<<< */
 .myClassBackgr{
     background-color: #FED517;
     color: black;
     font-weight: 100;
 }
 
-.my-ul-navbar:hover{
-    color:rgb(246, 223, 8) !important;
-}
 
-/* .{ 
-    color: #0d6efd;
-    font-weight: bolder;
-}   */
+
+
